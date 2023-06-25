@@ -14,4 +14,9 @@ public class CalculatorController {
             @RequestParam int b){
         return a+b;
     }
+
+    @RequestMapping("test")
+    public int test(){
+        return 1;
+    }
 }
